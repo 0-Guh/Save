@@ -1,0 +1,173 @@
+{
+    "window.title": "Visual Studio Code", // Define o título da janela do VS Code
+    "window.menuBarVisibility": "compact", // Alterna a visibilidade da barra de menu entre visível e oculta
+    "window.titleBarStyle": "custom", // Define o nível de zoom da janela
+    "window.commandCenter": true, // Centro de Comandos (Command Center) para acesso rápido a comandos
+    //      -> Cursor
+    "editor.cursorStyle": "line", // Define o estilo do cursor
+    "editor.cursorBlinking": "expand", // Define o tipo de animação do cursor
+    "editor.cursorSmoothCaretAnimation": "on", // Habilita a animação suave do cursor
+    "editor.cursorSurroundingLinesStyle": "default", // Define o estilo das linhas circundantes do cursor ( Ctrl + Shift + L )
+    "editor.cursorWidth": 3, // Define a largura do cursor
+    "editor.cursorSurroundingLines": 0, // Define o número de linhas circundantes exibidas quando o cursor se move
+    //      -> Font  
+    "editor.fontFamily": "Fira Code", // Define a fonte do editor
+    "editor.fontWeight": "bold", // Define o peso da fonte do editor
+    "editor.fontSize": 15, // Define o tamanho da fonte do editor 
+    "editor.fontLigatures": true, // Juntar 2 Teclas como a seta na font Fira Code
+    "editor.fontVariations": false, // variações de fonte
+    //      -> MiniMapa
+    "editor.minimap.side": "right", // Define o lado do MiniMap
+    "editor.minimap.size": "proportional", // Define o tamanho do MiniMap
+    "editor.minimap.showSlider": "mouseover", // Define a exibição da barra de rolagem do MiniMap
+    "editor.minimap.maxColumn": 120, // Define o número máximo de colunas exibidas no MiniMap
+    "editor.minimap.scale": 1, // Define a escala do MiniMap
+    "editor.minimap.enabled": false, // Desabilita o MiniMap
+    "editor.minimap.autohide": false, // Desabilita o autoocultar do MiniMap
+    "editor.minimap.renderCharacters": false, // Desabilita a renderização de caracteres no MiniMap
+    //      -> Localizar
+    "editor.find.seedSearchStringFromSelection": "always", // utiliza a seleção atual como padrão na caixa de busca
+    "editor.find.autoFindInSelection": "never", // busca automática na seleção
+    "editor.find.addExtraSpaceOnTop": false, // adiciona espaço extra no topo do editor ao abrir a caixa de busca
+    "editor.find.cursorMoveOnType": false, // move o cursor automaticamente ao digitar na caixa de busca
+    "editor.find.loop": true, // rolagem contínua durante a busca
+    //      -> Formatação
+    "editor.formatOnSaveMode": "file", // Formata apenas o arquivo salvo ao invés de todos os arquivos
+    "editor.formatOnPaste": true, // formata o código ao colar
+    "editor.formatOnSave": false, // formata o código ao salvar
+    "editor.formatOnType": false, // formata o código durante a digitação
+    //      -> Editor De Compraração
+    "diffEditor.diffAlgorithm": "legacy", // Define o algoritmo de comparação de diffs
+    "diffEditor.wordWrap": "inherit", // configuração de quebra de linha do editor principal
+    "diffEditor.maxComputationTime": 0, // Define o tempo máximo de computação para diffs
+    "diffEditor.maxFileSize": 0, // Define o tamanho máximo do arquivo para diffs
+    "diffEditor.codeLens": false, // recolhimento de regiões não alteradas no editor de comparação
+    "diffEditor.experimental.useVersion2": false, // uso da versão 2 do editor de comparação
+    "diffEditor.ignoreTrimWhitespace": false, // ignora os espaços em branco ao comparar arquivos no editor de comparação
+    "diffEditor.renderIndicators": false, // renderização de indicadores no editor de comparação
+    "diffEditor.renderMarginRevertIcon": false, // renderização do ícone de reversão na margem no editor de comparação
+    "diffEditor.renderSideBySide": false, // visualização lado a lado no editor de comparação
+    //      -> Sugestões
+    "editor.quickSuggestions": {
+        "other": "on", // sugestões para outros tipos de conteúdo
+        "comments": "on", // sugestões para comentários
+        "strings": "on" // sugestões para strings
+    },
+    "editor.acceptSuggestionOnEnter": "off", // aceitação automática da sugestão ao pressionar Enter
+    "editor.inlineSuggest.showToolbar": "onHover", // barra de ferramentas de sugestão
+    "editor.snippetSuggestions": "top", // Define o local da sugestões de Snippet
+    "editor.suggestSelection": "first", // Priorizar as sugestões
+    "editor.suggest.insertMode": "replace", // Troca o texto existente pela sugestão
+    "editor.suggest.selectionMode": "always", // Sempre seleciona a primeira sugestão automaticamente
+    "editor.suggestFontSize": 15, // Define o tamanho da fonte das sugestões
+    "editor.suggestLineHeight": 25, // Define a altura da linha das sugestões
+    "editor.quickSuggestionsDelay": 0, // Define o atraso na exibição das sugestões
+    "editor.suggest.preview": true, // Habilita a visualização das sugestões enquanto digita
+    "editor.acceptSuggestionOnCommitCharacter": false, // Desativa a aceitação automática da sugestão ao inserir caracteres especiais
+    "editor.inlineSuggest.enabled": false, // sugestões em linha
+    "editor.suggest.localityBonus": false, // localidade nas sugestões
+    "editor.suggest.filterGraceful": true, // filtro sugestões
+    "editor.inlineSuggest.suppressSuggestions": true, // Suprime as sugestões em linha
+    "editor.screenReaderAnnounceInlineSuggestion": false, // leitura em voz alta das sugestões em linha pelo leitor de tela
+    "editor.suggest.shareSuggestSelections": false, // compartilhamento de seleções de sugestões entre editores
+    "editor.suggest.matchOnWordStartOnly": true, // correspondência de sugestões apenas no início das palavras
+    "editor.suggestOnTriggerCharacters": false, // sugestões ao digitar caracteres desencadeadores
+    "editor.wordBasedSuggestions": "matchingDocuments", // sugestões baseadas em palavras
+    //          -> Sugestões <- 
+    "editor.suggest.showClasses": true, // sugestões de classes
+    "editor.suggest.showFiles": true, // sugestões de arquivos
+    "editor.suggest.showFolders": true, // sugestões de pastas
+    "editor.suggest.showFunctions": true, // sugestões de funções
+    "editor.suggest.showInlineDetails": true, // detalhes em linha nas sugestões
+    "editor.suggest.showIssues": true, // sugestões de problemas
+    "editor.suggest.showKeywords": true, // sugestões de palavras-chave da linguagem
+    "editor.suggest.showMethods": true, // sugestões de métodos
+    "editor.suggest.showModules": true, // sugestões de módulos
+    "editor.suggest.showProperties": true, // sugestões de propriedades
+    "editor.suggest.showReferences": true, // sugestões de referências
+    "editor.suggest.showSnippets": true, // sugestões de trechos de código
+    "editor.suggest.showTypeParameters": true, // sugestões de parâmetros
+    "editor.suggest.showUnits": true, // sugestões de unidades
+    "editor.suggest.showUsers": true, // sugestões de usuários
+    "editor.suggest.showValues": true, // sugestões de valores
+    "editor.suggest.showVariables": true, // sugestões de variáveis
+    "editor.suggest.showWords": true, // sugestões de palavras
+    "editor.suggest.showStatusBar": true, // exibição da barra de status das sugestões
+    "editor.suggest.showStructs": true, // exibição de sugestões de estruturas
+    "editor.suggest.showOperators": true, // exibição de sugestões de operadores
+    "editor.suggest.showColors": true, // exibição de sugestões de cores
+    "editor.suggest.showConstants": true, // exibição de sugestões de constantes
+    "editor.suggest.showConstructors": true, // exibição de sugestões de construtores
+    "editor.suggest.showCustomcolors": true, // exibição de sugestões de cores personalizadas
+    "editor.suggest.showDeprecated": true, // exibição de sugestões obsoletas
+    "editor.suggest.showIcons": true, // exibição de ícones nas sugestões
+    "editor.suggest.showInterfaces": true, // exibição de sugestões de interfaces
+    "editor.suggest.showEnumMembers": true, // exibição de sugestões de membros de enumeração
+    "editor.suggest.showEnums": true, // exibição de sugestões de enumerações
+    "editor.suggest.showEvents": true, // exibição de sugestões de eventos
+    "editor.suggest.showFields": true, // exibição de sugestões de campos
+    "editor.suggest.snippetsPreventQuickSuggestions": true, // Permite que sugestões de trechos de código não impeçam outras sugestões rápidas
+    //      -> Arquivos
+    "files.autoSave": "off", // salvamento automático de arquivos
+    "files.encoding": "utf8", // Define a codificação padrão dos arquivos
+    "files.eol": "auto", // Define a quebra de linha padrão dos arquivos como automática
+    "files.hotExit": "off", // restauração dos arquivos abertos no reinício
+    "files.saveConflictResolution": "askUser", // Pergunta ao usuário como resolver conflitos ao salvar um arquivo
+    "files.defaultLanguage": "", // Define a linguagem padrão para novos arquivos como vazia
+    "files.autoSaveDelay": 1000, // Define o atraso antes do salvamento automático como 1000 milissegundos
+    "files.participants.timeout": 60000, // Define o tempo limite para participantes de arquivos como 60000 milissegundos
+    "files.readonlyExclude": {}, // Define os padrões de exclusão de arquivos somente leitura como vazios
+    "files.readonlyInclude": {}, // Define os padrões de inclusão de arquivos somente leitura como vazios
+    "files.associations": {}, // Define as associações de arquivo personalizadas como vazias
+    "files.watcherInclude": [], // Define os padrões de inclusão para o observador de arquivos como vazios
+    "files.autoGuessEncoding": false, // Desativa a detecção automática de codificação de arquivo
+    "files.enableTrash": false, // Desativa o uso da lixeira ao excluir arquivos
+    "files.insertFinalNewline": false, // Desativa a inserção de uma nova linha final ao salvar um arquivo
+    "files.readonlyFromPermissions": false, // Desativa a marcação de arquivos como somente leitura com base nas permissões do sistema
+    "files.refactoring.autoSave": false, // Desativa o salvamento automático durante refatorações
+    "files.restoreUndoStack": false, // Desativa a restauração da pilha de desfazer/refazer ao abrir um arquivo
+    "files.simpleDialog.enable": false, // Desativa o uso de diálogos simples para confirmações de arquivo
+    "files.trimFinalNewlines": false, // Desativa a remoção de novas linhas finais ao salvar um arquivo
+    "files.trimTrailingWhitespace": false, // Desativa a remoção de espaços em branco à direita ao salvar um arquivo
+    //          -> Exclude
+    "files.watcherExclude": {
+        "**/.git/objects/**": true, // Exclui a pasta .git/objects e seus subdiretórios
+        "**/.git/subtree-cache/**": true, // Exclui a pasta .git/subtree-cache e seus subdiretórios
+        "**/node_modules/*/**": true, // Exclui a pasta node_modules e seus subdiretórios
+        "**/.hg/store/**": true // Exclui a pasta .hg/store e seus subdiretórios
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true
+    },
+    //      -> Terminal  
+    "terminal.integrated.fontFamily": "Fira Code", // Define a família da fonte do terminal como
+    "terminal.integrated.fontWeightBold": "bold", // Define o peso da fonte em negrito para o terminal
+    "terminal.integrated.fontWeight": "bold", // Define o peso da fonte do terminal em negrito
+    "terminal.integrated.cursorStyle": "underline", // Define o estilo do cursor no terminal como sublinhado
+    "terminal.integrated.tabs.title": "__", // Define o título das abas do terminal como 
+    "terminal.integrated.fontSize": 12, // Define o tamanho da fonte do terminal como 
+    "terminal.integrated.cursorBlinking": true, // Habilita a animação do cursor piscando no terminal
+    //      -> Ver Depois
+    "editor.tabSize": 4, // Define o tamanho da tabulação (tab) como 4 espaços
+    "editor.wordWrap": "on", // Habilita a quebra de linha automática no editor
+    "editor.autoClosingBrackets": "languageDefined", // Define o comportamento de fechamento automático de colchetes como definido pela linguagem
+    "editor.autoClosingQuotes": "languageDefined", // Define o comportamento de fechamento automático de aspas como definido pela linguagem
+    "editor.autoClosingDelete": "auto",
+    "editor.unicodeHighlight.includeComments": false,
+    "diffEditor.hideUnchangedRegions.enabled": false,
+    "css.lint.unknownAtRules": "ignore",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.unicodeHighlight.includeStrings": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "extensions.ignoreRecommendations": true,
+    "outline.showKeys": false,
+    "workbench.colorTheme": "2077",
+    "workbench.editor.enablePreview": false,
+}
